@@ -1,14 +1,14 @@
 #import "template.typ": template, course
 
 #show: template.with(
-  university: "The name of your University",
-  major: "The name of your major",
-  school: "The name of your School / Department",
+  university: "Hohai University",
+  major: "Bachelor of Engineering in Computer Science and Technology",
+  school: "",
   name: "Your Name",
   id: "Your Student ID",
   // The cover image settings
   cover: (
-    logo_path: "logo_bupt2.png",
+    logo_path: "logo_hhu2.png",
     logo_width: 100%,
     logo_with_university_name: true,
   ),

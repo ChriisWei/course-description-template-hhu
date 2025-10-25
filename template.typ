@@ -16,16 +16,20 @@
         text(weight: "semibold", size: 24pt)[#university]
         v(1fr)
       }
+      #text(weight: "bold", size: 30pt, "Hohai University")
+
       #text(weight: "bold", size: 30pt, "Course Description")
-      #v(1fr)
+      #v(2fr)
       #text(weight: "semibold", size: 16pt)[#major]
+      #v(5fr)
+      #text(size: 16pt)[Name: #name]
       #parbreak()
-      #text(weight: "semibold", size: 18pt)[#school]
+      #text(size: 16pt)[Student No.: #id]
+      #parbreak()
+      // #text(weight: "semibold", size: 18pt)[#school]
     ]
     #v(3fr)
     #set text(weight: "medium", size: 14pt)
-    Name: #name #parbreak()
-    Student No. #id #parbreak()
   ]
 
   // Page settings
@@ -40,10 +44,12 @@
       #h(1fr)
       #datetime.today().display()
     ],
-    background: image(
-      watermark.img_path,
-      width: watermark.img_width,
-    )
+    // background: image(
+    //   watermark.img_path,
+    //   width: watermark.img_width,
+    // )
+    // 
+    // 这里注释了水印背景设置
   )
 
   // Table of contents
