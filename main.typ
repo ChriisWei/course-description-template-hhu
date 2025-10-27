@@ -13,10 +13,11 @@
     logo_with_university_name: true,
   ),
   // The watermark image settings as the background of the document
-  watermark: (
-    img_path: "logo_bupt_translucent.png",
-    img_width: 160mm,
-  ),
+  // watermark: (
+  //   img_path: "",
+  //   img_width: 160mm,
+  // ),
+  // 这里注释了水印设置
 )
 
 = Category 1
