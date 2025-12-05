@@ -17,10 +17,10 @@
 ### 获取项目
 
 ```bash
-git clone [https://github.com/ChriisWei/course-description-template-hhu.git](https://github.com/ChriisWei/course-description-template-hhu.git)
+git clone https://github.com/ChriisWei/course-description-template-hhu.git
 ```
 
-(如果你未安装 Git，请点击页面右上角 Code -> Download ZIP)
+（如果你未安装 Git，请点击页面右上角 Code -> Download ZIP）
 
 ### 编辑方法
 
@@ -119,7 +119,7 @@ This repository contains a template for creating Course Description using [Typst
 ### Get the Project
 
 ```bash
-git clone [https://github.com/ChriisWei/course-description-template-hhu.git](https://github.com/ChriisWei/course-description-template-hhu.git)
+git clone https://github.com/ChriisWei/course-description-template-hhu.git
 ```
 
 (If you do not have Git installed, please click Code -> Download ZIP in the top right corner)
