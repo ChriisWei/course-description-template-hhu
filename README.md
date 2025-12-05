@@ -6,12 +6,6 @@
 
 本仓库提供了一个 [Typst](https://typst.app/) 课程描述模板，旨在帮助生成清晰专业的课程摘要，适合河海大学学生申请国外大学时使用。
 
-```diff
-- 注意：
-- 教务处对于专业英文名的要求是按照在读证明上官方的称呼（例如 Bachelor of Engineering in Computer Science and Technology），或者可以按照教务给的封面模板不写专业英文名；
-- 对于除 Course Description 字段以外不包含在教务处给的课程描述素材包中的内容教务处不予对正文内容进行盖章，但允许给封面盖章。
-```
-
 ## 预览
 
 | ![main_page-0001](./assets/main_page-0001.jpg) | ![main_page-0002](./assets/main_page-0002.jpg) |
@@ -19,6 +13,18 @@
 | ![main_page-0003](./assets/main_page-0003.jpg) | ![main_page-0004](./assets/main_page-0004.jpg) |
 
 ## 使用方法
+
+### 获取项目
+
+```bash
+git clone [https://github.com/ChriisWei/course-description-template-hhu.git](https://github.com/ChriisWei/course-description-template-hhu.git)
+```
+
+(如果你未安装 Git，请点击页面右上角 Code -> Download ZIP)
+
+### 编辑方法
+
+你可以在 [typst.app](https://typst.app/) 导入项目进行在线编辑，也可以使用 [VS Code](https://code.visualstudio.com/) 进行本地编辑（需安装 **Tinymist Typst** 插件获得实时预览功能）。
 
 在 `main.typ` 文件中，你只需要填写你的大学、专业、学院、姓名、学号以及每门课程的详细信息。模板将自动生成包含课程描述的 PDF 文件。
 
@@ -102,12 +108,6 @@
 
 This repository contains a template for creating Course Description using [Typst](https://typst.app/). It is designed to assist in generating clear and professional course summaries, especially useful for students at Hohai University who need to present course details in a standardized and visually appealing format when applying to universities.
 
-```diff
-- Note:
-- The Academic Affairs Office requires the English name of the major to follow the official designation on the enrollment certificate (e.g., Bachelor of Engineering in Water Resources and Hydropower Engineering), or you may choose not to include the major's English name following the cover template provided by the Academic Affairs Office;
-- For content other than the Course Description field that is not included in the course description material package provided by the Academic Affairs Office, the office will not stamp the main content but will allow stamping on the cover page.
-```
-
 ## Preview
 
 | ![main_page-0001](./assets/main_page-0001.jpg) | ![main_page-0002](./assets/main_page-0002.jpg) |
@@ -115,6 +115,18 @@ This repository contains a template for creating Course Description using [Typst
 | ![main_page-0003](./assets/main_page-0003.jpg) | ![main_page-0004](./assets/main_page-0004.jpg) |
 
 ## Usage
+
+### Get the Project
+
+```bash
+git clone [https://github.com/ChriisWei/course-description-template-hhu.git](https://github.com/ChriisWei/course-description-template-hhu.git)
+```
+
+(If you do not have Git installed, please click Code -> Download ZIP in the top right corner)
+
+### Editing
+
+You can import the project into [typst.app](https://typst.app/) for online editing, or use [VS Code](https://code.visualstudio.com/) locally (install the **Tinymist Typst** extension for real-time preview).
 
 In the `main.typ` file, you just need to fill in the information of your university, major, school, name, student ID, and the details of each course. The template will automatically generate a PDF file with the course descriptions.
 
