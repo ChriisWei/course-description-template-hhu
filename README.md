@@ -1,10 +1,6 @@
-# 河海大学课程描述模板 / HHU Course Description Template
-
 [English](#english) | [中文](#中文)
 
 ---
-
-## 中文
 
 # 河海大学课程描述模板
 
@@ -101,8 +97,6 @@
 本模板基于 [typst-course-description-template](https://github.com/dsyislearning/typst-course-description-template) 修改而成，感谢原作者的开源贡献。
 
 ---
-
-## English
 
 # HHU Course Description Template
 
